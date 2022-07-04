@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar";
 import Signatures from "./components/Signatures";
 import Users from "./components/Users";
 import Groups from "./components/Groups";
+import Banner from "./components/Banner";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/groups" element={<Groups />} />
         </Routes>
       </main>
+      <Banner />
     </div>
     </Router>
   )

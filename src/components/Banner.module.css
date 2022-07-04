@@ -1,0 +1,7 @@
+.banner {
+  grid-area: banner;
+  width: 150px;
+  height: 100vh;
+  background-color: lightcoral;
+  margin: 0;
+}
